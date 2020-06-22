@@ -1,6 +1,6 @@
 # Biot-Savart Magnetic Field Calculator
 
-This tool numerically solves for the magnetic field around an arbitrarily shaped coil specified by the user, in a discrete and finite volume surrounding the coil.
+This tool numerically solves for the 3D vector magnetic field around an arbitrarily shaped coil specified by the user, in a discrete and finite volume surrounding the coil. The code is optimized to use NumPy vectorization, and uses Richardson extrapolation to get the best accuracy for a specified mesh size.
 
 Latest Version: V4.3 (June 20, 2020)
 
