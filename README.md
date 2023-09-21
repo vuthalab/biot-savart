@@ -109,9 +109,9 @@ This approach is ideal for systems with complicated geometry, as it is easy to c
 # Producing Coils
 You can either produce your own coils according to the rules specified above, or use some of the built in functions.
 
-`create_B_x_rectangle()`, `create_B_y_rectangle()`, `create_B_x_rectangle()` produce rectangular coils of adjustable dimensions at adjustable positions.
+`create_B_x_rectangle()`, `create_B_y_rectangle()`, `create_B_z_rectangle()` produce rectangular coils of adjustable dimensions at adjustable positions.
 
-Similarly, `create_Bx_circle()`, `create_By_circle()`, `create_By_circle()` produce circular coils of adjustable dimensions at adjustable positions.
+Similarly, `create_Bx_circle()`, `create_By_circle()`, `create_Bz_circle()` produce circular coils of adjustable dimensions at adjustable positions.
 
 `helmholtz_coils()` creates a pair of circular helmholtz coils, spaced apart in the z axis.
 
